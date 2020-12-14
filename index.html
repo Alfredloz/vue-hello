@@ -9,12 +9,13 @@
 <body>
     <div id="container">
         <h1>{{titolo}}</h1>
+        <h2>{{userMessage}}</h2>
         <!-- !bonus -->
         <img :src="img" alt="welcome img">
         <!-- !altro bonus -->
         <div id="bonus" >
-            <img :src="imgTwo" alt="seconda immagine" v-if='imgTwo'>
             <button @click="putImg">Premi per avere un'immagine</button>
+            <img :src="imgTwo" alt="seconda immagine" v-if='imgTwo'>
         </div>
         <!-- forma lunga di bind -->
         <!-- <img v-bind:src="img" alt="welcome img"> -->

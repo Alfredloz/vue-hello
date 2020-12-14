@@ -2,6 +2,7 @@ let container = new Vue({
     el: '#container',
     data: {
         titolo: 'Benvenuto alla pagina',
+        userMessage: prompt('scrivi un messaggio personale!'),
         img: 'https://cise-egypt.com/wp-content/uploads/2019/09/WELCOME-ST-IVES.jpg',
         imgTwo: null,
     },
